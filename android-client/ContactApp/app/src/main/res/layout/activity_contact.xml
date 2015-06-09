@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.apikothon.contact.Contact"
+    tools:ignore="MergeRootFrame" >
+
+    <EditText
+        android:id="@+id/inpName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Contact Name"
+        android:inputType="textPersonName" >
+		
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/inpNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inpName"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="numberSigned" />
+
+    <EditText
+        android:id="@+id/inpEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inpNumber"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textEmailAddress" />
+
+    <CheckBox
+        android:id="@+id/inpFavourite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inpEmail"
+        android:text="Add to favourite" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/inpFavourite"
+        android:onClick="save"
+        android:text="Save" />
+
+</RelativeLayout>
+

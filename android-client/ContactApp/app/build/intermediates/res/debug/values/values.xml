@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/Android/android-studio/projects/ContactApp/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/Android/android-studio/projects/ContactApp/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">Contact App</string>
+    <string name="title_activity_contact">Contact</string>
+    <!-- From: file:/D:/Android/android-studio/projects/ContactApp/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+</resources>
