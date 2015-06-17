@@ -74,10 +74,11 @@ you can also check the operation from Terminal or using POSTMAN
 
 #### Request
 `GET /api/v1/contacts`
+<br/>
 `curl -i -H 'Accept: application/json' http://localhost/api/v1/contacts`
 
 #### Response
-`
+```
 HTTP/1.1 200 OK
 Date: Thu, 24 Feb 2011 12:36:30 GMT
 Status: 200 OK
@@ -85,4 +86,4 @@ Connection: close
 Content-Type: application/json
 Content-Length: 99
 {"status":200,"contacts":[{"contact_id":10,"name":"myname","number":"012345","is_favourite":true}]}
-`
+```
