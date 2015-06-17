@@ -70,8 +70,6 @@ Here is list of Resouces and action used at the api.
 ## API Usage
 you can also check the operation from Terminal or using POSTMAN
 
-## GET all contacts
-
 #### Request
 `GET /api/v1/contacts`
 <br/>
